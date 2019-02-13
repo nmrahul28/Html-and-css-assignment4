@@ -1,0 +1,113 @@
+﻿    .header{
+        top: 0px;
+        left: 0px;
+        height: 30px;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        
+    }
+    .header-part1{
+        top: 0px;
+        left: 0px;
+        height: 30px;
+        width: 50%;
+        position: absolute;
+        background-color: #4080bf;
+        position: fixed;
+        z-index: 1;
+    }
+    .header-part2{
+        top: 0px;
+        padding-top: 0px;
+        right: 0px;
+        height: 30px;
+        width: 50%;
+        position: absolute;
+        background-color: #4d4d33;
+        position: fixed;
+        z-index: 1;
+    }
+    .header-down{
+        top: 25px;
+        left: 0px;
+        right: 0px;
+        height: 50px;
+        position: relative;
+        width: 100%;
+        background-color: azure;       
+    }
+    p{
+        font-size: 14;
+    }
+    .center{
+        text-align: center;
+    }
+    .img{
+        float: left;
+        padding-left: 20px;
+    }
+
+    .link{
+        padding-left: 60px;
+        padding-bottom: 20px;
+        position: relative;
+        top: 15px;
+        text-decoration: none;
+        text-decoration-style: solid;
+        color: #e6004c;
+        font-size: 20px;
+    }
+    .split{
+        top: 20px;
+        float: left;
+        width: 100%;
+        position: relative;
+        z-index: -1;
+    }
+    .left{
+        float: left;
+    }
+    .right{
+        float: right;
+    }
+    .total-split{
+        position: relative;
+        top: 20px;
+        height: auto;
+    }
+
+    h1{
+        color: #4080bf;
+    }
+    .category{
+        text-decoration: none;
+        text-decoration-color: darkblue;
+        text-decoration-style: solid;
+        padding: 15pt;
+        font-size: 20px;
+    }
+    .main {
+    display: flex;
+}
+
+    split-right{
+        flex: 75%;
+        background-color: aqua;
+    }
+      .left-split{
+        flex: 25%;
+        overflow: scroll;
+        position: sticky;
+    }
+    .left-flex{
+        flex: 50%;
+    }
+    right-flex{
+        flex: 50%;
+    }
+    .footer{
+        bottom: 0px;
+        height: 40px;
+        background-color: aquamarine;
+    }
