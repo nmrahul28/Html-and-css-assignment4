@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            ecommerce website
+        </title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-part1">
+            </div>
+            <div class="header-part2">
+            </div>
+            <div class="header-down">
+                <span class="img">
+                    <img src="kellton2.jpg" alt="kellton_logo" height="50px;" width="50px;">
+                </span>
+                    <span>
+                        <a href="#home" class="link">Home</a>
+                        <a href="#New" class="link">New</a>
+                        <a href="#men" class="link">Men</a>
+                        <a href="#women" class="link">Women</a>
+                        <a href="#baby" class="link">Baby</a>
+                        <a href="#Boys" class="link">Boys</a>
+                        <a href="#girls" class="link">Girls</a>
+                    </span>
+            </div>
+        </div>
+        <div class="main">
+            <div>
+                <img src="newimage2.jpg" alt="shopping logo" width="25%">
+                <img src="newimage3.jpg" alt="shopping logo3" width="25%">
+                <img src="newimage4.jpg" alt="logo" width="25%">
+            </div>
+        </div>
+        <div class="main">
+            <div class="left-split">
+                <h1>
+                    Categories
+                </h1>
+                <ul>
+                    <li>
+                        <a href="#Fashion" class="category">Fashion</a>
+                    </li>
+                    <li>
+                        <a href="#Electronic" class="category">Electronic</a>
+                    <li>
+                        <a href="#Books" class="category">Books</a>
+                    </li>
+                    <li>
+                        <a href="#sports" class="category">Sports, Fitness, Bags, Luggage</a>
+                    </li>
+                    <li>
+                        <a href="#movies" class="category">Movies, Music & Video Games</a>
+                    </li>
+                    <li>
+                        <a href="#home" class="category">Home, Kitchen, Pets</a>
+                    </li>
+                    <li>
+                        <a href="#beauty" class="category">Beauty, Health, Grocery</a>
+                    </li>
+                    <li>
+                        <a href="#car" class="category">Car, Motorbike, Industrial</a>
+                    </li>
+                    <li>
+                        <a href="#mobile" class="category">Mobiles, Computers</a>
+                    </li>
+                    <li>
+                        <a href="#kids" class="category">Kids' Fashion</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="split-right">
+                <img src="newimage4.jpg" alt="shopping logo">
+                <img src="newimage5.jpg" alt="shopping logo5">
+            </div>
+        </div>
+        <div class="footer">                                                 <!--footer start-->
+            <pre>
+                <b>
+                    Contact No:        Gmail:                   
+                    7013117063      abcd.kellton@gmail.com
+                </b>
+            </pre>
+        </div>
+    </body>
+</html>
+<style>
+    .header{
+        top: 0px;
+        left: 0px;
+        height: 30px;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        
+    }
+    .header-part1{
+        top: 0px;
+        left: 0px;
+        height: 30px;
+        width: 50%;
+        position: absolute;
+        background-color: #4080bf;
+        position: fixed;
+        z-index: 1;
+    }
+    .header-part2{
+        top: 0px;
+        padding-top: 0px;
+        right: 0px;
+        height: 30px;
+        width: 50%;
+        position: absolute;
+        background-color: #4d4d33;
+        position: fixed;
+        z-index: 1;
+    }
+    .header-down{
+        top: 25px;
+        left: 0px;
+        right: 0px;
+        height: 50px;
+        position: relative;
+        width: 100%;
+        background-color: azure;       
+    }
+    p{
+        font-size: 14;
+    }
+    .center{
+        text-align: center;
+    }
+    .img{
+        float: left;
+        padding-left: 20px;
+    }
+
+    .link{
+        padding-left: 60px;
+        padding-bottom: 20px;
+        position: relative;
+        top: 15px;
+        text-decoration: none;
+        text-decoration-style: solid;
+        color: #e6004c;
+        font-size: 20px;
+    }
+    .split{
+        top: 20px;
+        float: left;
+        width: 100%;
+        position: relative;
+        z-index: -1;
+    }
+    .left{
+        float: left;
+    }
+    .right{
+        float: right;
+    }
+    .total-split{
+        position: relative;
+        top: 20px;
+        height: auto;
+    }
+
+    h1{
+        color: #4080bf;
+    }
+    .category{
+        text-decoration: none;
+        text-decoration-color: darkblue;
+        text-decoration-style: solid;
+        padding: 15pt;
+        font-size: 20px;
+    }
+    .main {
+    display: flex;
+}
+
+    split-right{
+        flex: 75%;
+        background-color: aqua;
+    }
+      .left-split{
+        flex: 25%;
+        overflow: scroll;
+        position: sticky;
+    }
+    .left-flex{
+        flex: 50%;
+    }
+    right-flex{
+        flex: 50%;
+    }
+    .footer{
+        bottom: 0px;
+        height: 40px;
+        background-color: aquamarine;
+    }
+</style>
