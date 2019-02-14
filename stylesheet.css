@@ -1,4 +1,4 @@
-﻿    .header{
+    .header{
         top: 0px;
         left: 0px;
         height: 30px;
@@ -94,11 +94,14 @@
     split-right{
         flex: 75%;
         background-color: aqua;
+        margin: 5px;
     }
       .left-split{
         flex: 25%;
+        height: 300px;
         overflow: scroll;
         position: sticky;
+        z-index: 1;
     }
     .left-flex{
         flex: 50%;
@@ -110,4 +113,6 @@
         bottom: 0px;
         height: 40px;
         background-color: aquamarine;
+        position: fixed;
+        width: 100%;
     }
